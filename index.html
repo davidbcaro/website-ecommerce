@@ -1,0 +1,759 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <title>E-commerce</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-success fixed-top">
+    <div class="container">
+
+      <h3><i class="fa fa-cart-plus text-white mr-2" aria-hidden="true"></i></h3>
+      <a class="navbar-brand font-weight-bold text-white" href="#">Datatech</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto mr-4">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Vendedor <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Contactenos <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Ayuda <span class="sr-only">(current)</span></a>
+          </li>
+
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+          </form>
+          <div class="icon mt-2">
+            <h5>
+              <i class="fa fa-cart-plus ml-3 mr-3 text-white" data-toggle="tooltip" title="Carro de compras"
+                aria-hidden="true"></i>
+              <i class="fa fa-envelope mr-3 text-white" data-toggle="tooltip" title="Correo entrante" aria-hidden="true"></i>
+              <i class="fa fa-bell mr-3 text-white" data-toggle="tooltip" title="Notificaciones" aria-hidden="true"></i>
+            </h5>
+          </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="row mt-5 no-gutters">
+    <div class="col-md-2 bg-light">
+      <ul class="list-group list-group-flush p-2 pt-4">
+        <li class="list-group-item bg-success text-white"><i class="fa fa-list" aria-hidden="true"></i>
+          Categorías</li>
+        <li class="list-group-item"><i class="fa fa-chevron-right" aria-hidden="true"></i>
+          Equipo Electrónico</li>
+        <li class="list-group-item"><i class="fa fa-chevron-right" aria-hidden="true"></i>
+          Accesorios Electrónicos</li>
+        <li class="list-group-item"><i class="fa fa-chevron-right" aria-hidden="true"></i>
+          Ropa Masculina</li>
+        <li class="list-group-item"><i class="fa fa-chevron-right" aria-hidden="true"></i>
+          Ropa Femenina</li>
+        <li class="list-group-item"><i class="fa fa-chevron-right" aria-hidden="true"></i>
+          Ropa Infantil</li>
+        <li class="list-group-item"><i class="fa fa-chevron-right" aria-hidden="true"></i>
+          Automotriz</li>
+        <li class="list-group-item"><i class="fa fa-chevron-right" aria-hidden="true"></i>
+          Aficiones & Deportes</li>
+      </ul>
+    </div>
+    <div class="col-md-10">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/slide/slide1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/slide/slide2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/slide/slide3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <h4 class="text-center font-weight-bold m-4">PRODUCTOS NUEVOS</h4>
+
+    </div>
+
+    <div class="row mx-auto">
+      <div class="card mr-2 ml-2" style="width: 16rem;">
+        <img src="img/produk/headphone.jpg" class="card-img-top" alt="...">
+        <div class="card-body bg-light">
+          <h5 class="card-title">Auriculares</h5>
+          <p class="card-text">Envío gratis de auriculares Bluetooth</p>
+          <i class="fa fa-star text-success" aria-hidden="true"></i>
+          <i class="fa fa-star text-success" aria-hidden="true"></i>
+          <i class="fa fa-star text-success" aria-hidden="true"></i>
+          <i class="fa fa-star-half-o text-success" aria-hidden="true"></i>
+          <i class="fa fa-star-o text-success" aria-hidden="true"></i><br>
+          <a href="#" class="btn btn-primary" data-target="#produk1" data-toggle="modal">Detalles</a>
+          <a href="#" class="btn btn-danger">$300.000</a>
+        </div>
+      </div>
+
+      <div class="card mr-2 ml-2" style="width: 16rem;">
+        <img src="img/produk/kamera.jpg" class="card-img-top" alt="...">
+        <div class="card-body bg-light">
+          <h5 class="card-title">Cámara</h5>
+          <p class="card-text">Cámara DSLR CANON Tipo 700D</p>
+          <i class="fa fa-star text-success" aria-hidden="true"></i>
+          <i class="fa fa-star text-success" aria-hidden="true"></i>
+          <i class="fa fa-star text-success" aria-hidden="true"></i>
+          <i class="fa fa-star-half-o text-success" aria-hidden="true"></i>
+          <i class="fa fa-star-o text-success" aria-hidden="true"></i><br>
+          <a href="#" class="btn btn-primary" data-target="#produk2" data-toggle="modal">Detalles</a>
+          <a href="#" class="btn btn-danger">$890.000</a>
+        </div>
+      </div>
+
+      <div class="card mr-2 ml-2" style="width: 16rem;">
+        <img src="img/produk/laptop.jpg" class="card-img-top" alt="...">
+        <div class="card-body bg-light">
+          <h5 class="card-title">Portátil Asus</h5>
+          <p class="card-text">Portátil Asus RAM 2 GB Pantalla 14 Pulg</p>
+          <i class="fa fa-star text-success" aria-hidden="true"></i>
+          <i class="fa fa-star text-success" aria-hidden="true"></i>
+          <i class="fa fa-star text-success" aria-hidden="true"></i>
+          <i class="fa fa-star-half-o text-success" aria-hidden="true"></i>
+          <i class="fa fa-star-o text-success" aria-hidden="true"></i><br>
+          <a href="#" class="btn btn-primary" data-target="#produk3" data-toggle="modal">Detalles</a>
+          <a href="#" class="btn btn-danger">$1'250.000</a>
+        </div>
+      </div>
+
+      <div class="card mr-2 ml-2" style="width: 16rem;">
+        <img src="img/produk/speaker.jpg" class="card-img-top" alt="...">
+        <div class="card-body bg-light">
+          <h5 class="card-title">Altavoces</h5>
+          <p class="card-text">Envío gratis de altavoces Bluetooth.</p>
+          <i class="fa fa-star text-success" aria-hidden="true"></i>
+          <i class="fa fa-star text-success" aria-hidden="true"></i>
+          <i class="fa fa-star text-success" aria-hidden="true"></i>
+          <i class="fa fa-star-half-o text-success" aria-hidden="true"></i>
+          <i class="fa fa-star-o text-success" aria-hidden="true"></i><br>
+          <a href="#" class="btn btn-primary" data-target="#produk4" data-toggle="modal">Detalles</a>
+          <a href="#" class="btn btn-danger">$120.000</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mx-auto mt-5">
+      <div class="card mr-2 ml-2" style="width: 16rem;">
+        <img src="img/produk/jacket.jpg" class="card-img-top" alt="...">
+        <div class="card-body bg-light">
+          <h5 class="card-title">Chaqueta</h5>
+          <p class="card-text">Chaqueta de cuero material de cuero importado</p>
+          <i class="fa fa-star text-success" aria-hidden="true"></i>
+          <i class="fa fa-star text-success" aria-hidden="true"></i>
+          <i class="fa fa-star text-success" aria-hidden="true"></i>
+          <i class="fa fa-star-half-o text-success" aria-hidden="true"></i>
+          <i class="fa fa-star-o text-success" aria-hidden="true"></i><br>
+          <a href="#" class="btn btn-primary" data-target="#produk5" data-toggle="modal">Detalles</a>
+          <a href="#" class="btn btn-danger">$650.000</a>
+        </div>
+      </div>
+
+      <div class="card mr-2 ml-2" style="width: 16rem;">
+        <img src="img/produk/usb.jpg" class="card-img-top" alt="...">
+        <div class="card-body bg-light">
+          <h5 class="card-title">USB iPhone</h5>
+          <p class="card-text">USB iPhone especial material Nylon</p>
+          <i class="fa fa-star text-success" aria-hidden="true"></i>
+          <i class="fa fa-star text-success" aria-hidden="true"></i>
+          <i class="fa fa-star text-success" aria-hidden="true"></i>
+          <i class="fa fa-star-half-o text-success" aria-hidden="true"></i>
+          <i class="fa fa-star-o text-success" aria-hidden="true"></i><br>
+          <a href="#" class="btn btn-primary" data-target="#produk6" data-toggle="modal">Detalles</a>
+          <a href="#" class="btn btn-danger">$120.000</a>
+        </div>
+      </div>
+
+      <div class="card mr-2 ml-2" style="width: 16rem;">
+        <img src="img/produk/ssd.jpg" class="card-img-top" alt="...">
+        <div class="card-body bg-light">
+          <h5 class="card-title">SSD Samsung</h5>
+          <p class="card-text">Capacidad externa de SSD Samsung de 500 GB</p>
+          <i class="fa fa-star text-success" aria-hidden="true"></i>
+          <i class="fa fa-star text-success" aria-hidden="true"></i>
+          <i class="fa fa-star text-success" aria-hidden="true"></i>
+          <i class="fa fa-star-half-o text-success" aria-hidden="true"></i>
+          <i class="fa fa-star-o text-success" aria-hidden="true"></i><br>
+          <a href="#" class="btn btn-primary" data-target="#produk7" data-toggle="modal">Detalles</a>
+          <a href="#" class="btn btn-danger">$360.000</a>
+        </div>
+      </div>
+
+      <div class="card mr-2 ml-2" style="width: 16rem;">
+        <img src="img/produk/sdcard.jpg" class="card-img-top" alt="...">
+        <div class="card-body bg-light">
+          <h5 class="card-title">SANDISK DE TARJETA SD</h5>
+          <p class="card-text">Sandisk SD CARD capacidad de 128 GB</p>
+          <i class="fa fa-star text-success" aria-hidden="true"></i>
+          <i class="fa fa-star text-success" aria-hidden="true"></i>
+          <i class="fa fa-star text-success" aria-hidden="true"></i>
+          <i class="fa fa-star-half-o text-success" aria-hidden="true"></i>
+          <i class="fa fa-star-o text-success" aria-hidden="true"></i><br>
+          <a href="#" class="btn btn-primary" data-target="#produk8" data-toggle="modal">Detalles</a>
+          <a href="#" class="btn btn-danger">$116.000</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="produk1" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalScrollableTitle">Detalles del Producto</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-6">
+                <img src="img/produk/headphone.jpg" alt="">
+              </div>
+              <div class="col-md-6">
+                <table class="table table-borderless">
+                  <tr>
+                    <th>Nombre del Producto</th>
+                    <td>Auriculares</td>
+                  </tr>
+                  <tr>
+                    <th>Marca/Tipo</th>
+                    <td>Boze/5B</td>
+                  </tr>
+                  <tr>
+                    <th>Tarifa de Franqueo</th>
+                    <td>Estandar</td>
+                  </tr>
+                  <tr>
+                    <th>Valoración del Producto</th>
+                    <td>
+                      <i class="fa fa-star text-success" aria-hidden="true"></i>
+                      <i class="fa fa-star text-success" aria-hidden="true"></i>
+                      <i class="fa fa-star text-success" aria-hidden="true"></i>
+                      <i class="fa fa-star-half-o text-success" aria-hidden="true"></i>
+                      <i class="fa fa-star-o text-success" aria-hidden="true"></i><br>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>Stock de Producto</th>
+                    <td>120 Pcs</td>
+                  </tr>
+                  <tr>
+                    <th>Precio</th>
+                    <td>$300.000</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">VOLVER</button>
+            <button type="button" class="btn btn-primary">COMPRAR</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="produk2" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle"
+  aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalScrollableTitle">Detalles del Producto</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="img/produk/kamera.jpg" alt="">
+          </div>
+          <div class="col-md-6">
+            <table class="table table-borderless">
+              <tr>
+                <th>Nombre del Producto</th>
+                <td>Cámara</td>
+              </tr>
+              <tr>
+                <th>Marca/Tipo</th>
+                <td>CANON/700D</td>
+              </tr>
+              <tr>
+                <th>Tarifa de Franqueo</th>
+                <td>Estandar</td>
+              </tr>
+              <tr>
+                <th>Valoración del Producto</th>
+                <td>
+                  <i class="fa fa-star text-success" aria-hidden="true"></i>
+                  <i class="fa fa-star text-success" aria-hidden="true"></i>
+                  <i class="fa fa-star text-success" aria-hidden="true"></i>
+                  <i class="fa fa-star-half-o text-success" aria-hidden="true"></i>
+                  <i class="fa fa-star-o text-success" aria-hidden="true"></i><br>
+                </td>
+              </tr>
+              <tr>
+                <th>Stock de Producto</th>
+                <td>120 Pcs</td>
+              </tr>
+              <tr>
+                <th>Precio</th>
+                <td>$890.000</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">VOLVER</button>
+        <button type="button" class="btn btn-primary">COMPRAR</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="modal fade" id="produk3" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle"
+aria-hidden="true">
+<div class="modal-dialog modal-lg" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalScrollableTitle">Detalles del Producto</h5>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="img/produk/laptop.jpg" alt="">
+        </div>
+        <div class="col-md-6">
+          <table class="table table-borderless">
+            <tr>
+              <th>Nombre del Producto</th>
+              <td>Portátil</td>
+            </tr>
+            <tr>
+              <th>Marca/Tipo</th>
+              <td>Asus</td>
+            </tr>
+            <tr>
+              <th>Tarifa de Franqueo</th>
+              <td>Estandar</td>
+            </tr>
+            <tr>
+              <th>Valoración del Producto</th>
+              <td>
+                <i class="fa fa-star text-success" aria-hidden="true"></i>
+                <i class="fa fa-star text-success" aria-hidden="true"></i>
+                <i class="fa fa-star text-success" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o text-success" aria-hidden="true"></i>
+                <i class="fa fa-star-o text-success" aria-hidden="true"></i><br>
+              </td>
+            </tr>
+            <tr>
+              <th>Stock de Producto</th>
+              <td>120 Pcs</td>
+            </tr>
+            <tr>
+              <th>Precio</th>
+              <td>$1'250.000</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-danger" data-dismiss="modal">VOLVER</button>
+      <button type="button" class="btn btn-primary">COMPRAR</button>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<div class="modal fade" id="produk4" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle"
+aria-hidden="true">
+<div class="modal-dialog modal-lg" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalScrollableTitle">Detalles del Producto</h5>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="img/produk/speaker.jpg" alt="">
+        </div>
+        <div class="col-md-6">
+          <table class="table table-borderless">
+            <tr>
+              <th>Nombre del Producto</th>
+              <td>Altavoces Bluetooth</td>
+            </tr>
+            <tr>
+              <th>Marca/Tipo</th>
+              <td>SONOS</td>
+            </tr>
+            <tr>
+              <th>Tarifa de Franqueo</th>
+              <td>Estandar</td>
+            </tr>
+            <tr>
+              <th>Valoración del Producto</th>
+              <td>
+                <i class="fa fa-star text-success" aria-hidden="true"></i>
+                <i class="fa fa-star text-success" aria-hidden="true"></i>
+                <i class="fa fa-star text-success" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o text-success" aria-hidden="true"></i>
+                <i class="fa fa-star-o text-success" aria-hidden="true"></i><br>
+              </td>
+            </tr>
+            <tr>
+              <th>Stock de Producto</th>
+              <td>142 Pcs</td>
+            </tr>
+            <tr>
+              <th>Precio</th>
+              <td>$120.000</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-danger" data-dismiss="modal">VOLVER</button>
+      <button type="button" class="btn btn-primary">COMPRAR</button>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<div class="modal fade" id="produk5" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle"
+aria-hidden="true">
+<div class="modal-dialog modal-lg" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalScrollableTitle">Detalles del Producto</h5>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="img/produk/jacket.jpg" alt="">
+        </div>
+        <div class="col-md-6">
+          <table class="table table-borderless">
+            <tr>
+              <th>Nombre del Producto</th>
+              <td>Chaqueta</td>
+            </tr>
+            <tr>
+              <th>Marca/Tipo</th>
+              <td>Cuero Importado</td>
+            </tr>
+            <tr>
+              <th>Tarifa de Franqueo</th>
+              <td>Estandar</td>
+            </tr>
+            <tr>
+              <th>Valoración del Producto</th>
+              <td>
+                <i class="fa fa-star text-success" aria-hidden="true"></i>
+                <i class="fa fa-star text-success" aria-hidden="true"></i>
+                <i class="fa fa-star text-success" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o text-success" aria-hidden="true"></i>
+                <i class="fa fa-star-o text-success" aria-hidden="true"></i><br>
+              </td>
+            </tr>
+            <tr>
+              <th>Stock de Producto</th>
+              <td>120 Pcs</td>
+            </tr>
+            <tr>
+              <th>Precio</th>
+              <td>$650.000</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-danger" data-dismiss="modal">VOLVER</button>
+      <button type="button" class="btn btn-primary">COMPRAR</button>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<div class="modal fade" id="produk6" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle"
+aria-hidden="true">
+<div class="modal-dialog modal-lg" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalScrollableTitle">Detalles del Producto</h5>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="img/produk/usb.jpg" alt="">
+        </div>
+        <div class="col-md-6">
+          <table class="table table-borderless">
+            <tr>
+              <th>Nombre del Producto</th>
+              <td>USB iPhone</td>
+            </tr>
+            <tr>
+              <th>Marca/Tipo</th>
+              <td>Amazonbasics</td>
+            </tr>
+            <tr>
+              <th>Tarifa de Franqueo</th>
+              <td>Estandar</td>
+            </tr>
+            <tr>
+              <th>Valoración del Producto</th>
+              <td>
+                <i class="fa fa-star text-success" aria-hidden="true"></i>
+                <i class="fa fa-star text-success" aria-hidden="true"></i>
+                <i class="fa fa-star text-success" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o text-success" aria-hidden="true"></i>
+                <i class="fa fa-star-o text-success" aria-hidden="true"></i><br>
+              </td>
+            </tr>
+            <tr>
+              <th>Stock de Producto</th>
+              <td>50 Pcs</td>
+            </tr>
+            <tr>
+              <th>Precio</th>
+              <td>$120.000</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-danger" data-dismiss="modal">VOLVER</button>
+      <button type="button" class="btn btn-primary">COMPRAR</button>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<div class="modal fade" id="produk7" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle"
+aria-hidden="true">
+<div class="modal-dialog modal-lg" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalScrollableTitle">Detalles del Producto</h5>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="img/produk/ssd.jpg" alt="">
+        </div>
+        <div class="col-md-6">
+          <table class="table table-borderless">
+            <tr>
+              <th>Nombre del Producto</th>
+              <td>SSD</td>
+            </tr>
+            <tr>
+              <th>Marca/Tipo</th>
+              <td>Samsung</td>
+            </tr>
+            <tr>
+              <th>Tarifa de Franqueo</th>
+              <td>Estandar</td>
+            </tr>
+            <tr>
+              <th>Valoración del Producto</th>
+              <td>
+                <i class="fa fa-star text-success" aria-hidden="true"></i>
+                <i class="fa fa-star text-success" aria-hidden="true"></i>
+                <i class="fa fa-star text-success" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o text-success" aria-hidden="true"></i>
+                <i class="fa fa-star-o text-success" aria-hidden="true"></i><br>
+              </td>
+            </tr>
+            <tr>
+              <th>Stock de Producto</th>
+              <td>150 Pcs</td>
+            </tr>
+            <tr>
+              <th>Precio</th>
+              <td>$360.000</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-danger" data-dismiss="modal">VOLVER</button>
+      <button type="button" class="btn btn-primary">COMPRAR</button>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+    <div class="modal fade" id="produk8" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalScrollableTitle">Detalles del Producto</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-6">
+                <img src="img/produk/sdcard.jpg" alt="">
+              </div>
+              <div class="col-md-6">
+                <table class="table table-borderless">
+                  <tr>
+                    <th>Nombre del Producto</th>
+                    <td>Tarjeta SD</td>
+                  </tr>
+                  <tr>
+                    <th>Marca/Tipo</th>
+                    <td>SANDISK</td>
+                  </tr>
+                  <tr>
+                    <th>Tarifa de Franqueo</th>
+                    <td>Estandar</td>
+                  </tr>
+                  <tr>
+                    <th>Valoración del Producto</th>
+                    <td>
+                      <i class="fa fa-star text-success" aria-hidden="true"></i>
+                      <i class="fa fa-star text-success" aria-hidden="true"></i>
+                      <i class="fa fa-star text-success" aria-hidden="true"></i>
+                      <i class="fa fa-star-half-o text-success" aria-hidden="true"></i>
+                      <i class="fa fa-star-o text-success" aria-hidden="true"></i><br>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>Stock de Producto</th>
+                    <td>100 Pcs</td>
+                  </tr>
+                  <tr>
+                    <th>Precio</th>
+                    <td>$116.000</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">VOLVER</button>
+            <button type="button" class="btn btn-primary">COMPRAR</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="bg-dark text-white p-5">
+    <div class="row">
+      <div class="col-md-3">
+        <h5>Servicio al cliente</h5>
+        <ul>
+          <li>Centro de ayuda</li>
+          <li>¿Cómo comprar?</li>
+          <li>Envío</li>
+          <li>¿Cómo hacer devoluciones?</li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h5>Sobre nosotros</h5>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, architecto. Commodi iusto veritatis
+          voluptates voluptate illo quasi reiciendis nihil deleniti ut odit! Aspernatur perferendis possimus cumque quas
+          eos similique architecto.</p>
+      </div>
+      <div class="col-md-3">
+        <h5>Aliados</h5>
+        <ul>
+          <li>UBER</li>
+          <li>JNE</li>
+          <li>DESPEGAR</li>
+          <li>INTER RAPIDISIMO</li>
+          <li>RAPPI</li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h5>Contáctenos</h5>
+        <ul>
+          <li>01-8000-980-965</li>
+          <li>customer@mitienda.com</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <div class="copyright text-center text-white font-weight-bold bg-success p-2">
+    <p>Developed by FI Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2022</p>
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
